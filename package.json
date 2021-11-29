@@ -17,11 +17,14 @@
     "request": "^2.88.2",
     "web-vitals": "^1.0.1"
   },
+  "homepage": "https://ygj7166.github.io/news/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "react-scripts build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
