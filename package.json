@@ -17,6 +17,9 @@
     "request": "^2.88.2",
     "web-vitals": "^1.0.1"
   },
+  "devDependancies": {
+    "gh-pages" : "^3.1.0"
+  },
   "homepage": "https://ygj7166.github.io/news/",
   "scripts": {
     "start": "react-scripts start",
@@ -43,5 +46,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
